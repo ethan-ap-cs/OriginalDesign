@@ -64,4 +64,5 @@ void windowInput(int locX, int locY){
   fill(0);
   window(locX, locY);
   
+  //hi guys
 }
