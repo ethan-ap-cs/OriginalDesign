@@ -5,7 +5,7 @@ int z = 0;
 void setup() {
   size(800, 800);
   background(0);
-  frameRate(100);
+  frameRate(60);
 }
 void draw() {
   noStroke();
@@ -25,7 +25,7 @@ void draw() {
     windowInput(0, 55);
     windowInput(55, 0);
     if (w > 254) {
-      System.out.println("test");
+      //System.out.println("test");
       fill(w, y, z);
       windowInput(55, 55);
       windowInput(0, 110);
